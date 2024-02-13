@@ -35,14 +35,14 @@ Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/androi
 Mobile.setText(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.EditText - your.emailgmail.com'), 
     'aquabotol@gmail.com', 10)
 
-Mobile.tap(findTestObject(''), 10)
+Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK'), 10)
 
 Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (2)'), 10)
 
 Mobile.setText(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.EditText - Your Address'), 
     'Jl. Kebun Naga Dika', 10)
 
-Mobile.tap(findTestObject(''), 10)
+Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK'), 10)
 
 Mobile.closeApplication()
 

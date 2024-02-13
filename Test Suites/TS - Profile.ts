@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS - Checkout</name>
+   <name>TS - Profile</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>33988769-baba-4179-8aa1-635592c58874</testSuiteGuid>
+   <testSuiteGuid>a4d7390f-9666-4e80-af18-651a6852039c</testSuiteGuid>
    <testCaseLink>
-      <guid>7ce4fb53-25b2-4ba2-b557-5ee26a3bba03</guid>
+      <guid>b3b5a176-b8f8-4c26-b179-96352fe801d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Checkout/TC - Checkout from Category</testCaseId>
+      <testCaseId>Test Cases/Profile/TC - Check Order History is Empty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b2f71164-d7f7-478e-ac00-affb91d0e21e</guid>
+      <guid>1796d0fa-b955-4089-bc22-b8cefcbe908a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Checkout/TC - Search and Checkout</testCaseId>
+      <testCaseId>Test Cases/Profile/TC - Edit Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

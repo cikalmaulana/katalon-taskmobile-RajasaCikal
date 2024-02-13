@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Checkout" time="95.62" tests="2" failures="0" errors="0">
+   <testsuite name="TS - Checkout" tests="2" failures="0" errors="0" time="95.62" skipped="0" timestamp="2024-02-13 11:07:45" hostname="CIkal - Cikal" id="Test Suites/TS - Checkout">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\CIkal\\git\\katalon-taskmobile-RajasaCikal\\Reports\\20240213_110741\\TS - Checkout\\20240213_110741"/>
+         <property name="logFiles" value="C:\\Users\\CIkal\\git\\katalon-taskmobile-RajasaCikal\\Reports\\20240213_110741\\TS - Checkout\\20240213_110741\\appium.log, C:\\Users\\CIkal\\git\\katalon-taskmobile-RajasaCikal\\Reports\\20240213_110741\\TS - Checkout\\20240213_110741\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="CIkal - Cikal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="172.16.213.167"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Checkout/TC - Checkout from Category" time="52.527" classname="Test Cases/Checkout/TC - Checkout from Category" status="PASSED">
+         <system-out><![CDATA[2024-02-13 11:07:45 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC - Checkout from Category: Test Cases/Checkout/TC - Checkout from Category
+
+2024-02-13 11:07:45 - [TEST_STEP][PASSED] - startApplication("D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+2024-02-13 11:07:45 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-02-13 11:07:46 - [MESSAGE][INFO] - Appium server started on port 60,487
+
+2024-02-13 11:08:00 - [MESSAGE][PASSED] - Started app at: 'D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+2024-02-13 11:08:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageView (1)"), 10): Tapped on element 'Object Repository/android.widget.ImageView (1)'
+
+2024-02-13 11:08:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView (1)'
+
+2024-02-13 11:08:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.RelativeLayout"), 10): Tapped on element 'Object Repository/android.widget.RelativeLayout'
+
+2024-02-13 11:08:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RelativeLayout'
+
+2024-02-13 11:08:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageView (2)"), 10): Tapped on element 'Object Repository/android.widget.ImageView (2)'
+
+2024-02-13 11:08:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView (2)'
+
+2024-02-13 11:08:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - ADD TO CART (1)"), 10): Tapped on element 'Object Repository/android.widget.Button - ADD TO CART (1)'
+
+2024-02-13 11:08:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - ADD TO CART (1)'
+
+2024-02-13 11:08:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.EditText (1)"), "1", 10): Text '1' has been set to element 'Object Repository/android.widget.EditText (1)'
+
+2024-02-13 11:08:19 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/android.widget.EditText (1)'
+
+2024-02-13 11:08:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - ADD (1)"), 10): Tapped on element 'Object Repository/android.widget.Button - ADD (1)'
+
+2024-02-13 11:08:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - ADD (1)'
+
+2024-02-13 11:08:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView (1)"), 10): Tapped on element 'Object Repository/android.widget.TextView (1)'
+
+2024-02-13 11:08:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView (1)'
+
+2024-02-13 11:08:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - CHECKOUT (1)"), 10): Tapped on element 'Object Repository/android.widget.Button - CHECKOUT (1)'
+
+2024-02-13 11:08:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - CHECKOUT (1)'
+
+2024-02-13 11:08:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.EditText - Your Address (1)"), "Address", 10): Text 'Address' has been set to element 'Object Repository/android.widget.EditText - Your Address (1)'
+
+2024-02-13 11:08:25 - [MESSAGE][PASSED] - Text 'Address' has been set to element 'Object Repository/android.widget.EditText - Your Address (1)'
+
+2024-02-13 11:08:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - PROCESS CHECKOUT (1)"), 10): Tapped on element 'Object Repository/android.widget.Button - PROCESS CHECKOUT (1)'
+
+2024-02-13 11:08:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - PROCESS CHECKOUT (1)'
+
+2024-02-13 11:08:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - YES (1)"), 10): Tapped on element 'Object Repository/android.widget.Button - YES (1)'
+
+2024-02-13 11:08:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - YES (1)'
+
+2024-02-13 11:08:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - OK (1)"), 10): Tapped on element 'Object Repository/android.widget.Button - OK (1)'
+
+2024-02-13 11:08:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - OK (1)'
+
+2024-02-13 11:08:33 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-02-13 11:08:37 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC - Search and Checkout" time="42.901" classname="Test Cases/Checkout/TC - Search and Checkout" status="PASSED">
+         <system-out><![CDATA[2024-02-13 11:08:37 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC - Search and Checkout: Test Cases/Checkout/TC - Search and Checkout
+
+2024-02-13 11:08:37 - [TEST_STEP][PASSED] - startApplication("D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+2024-02-13 11:08:38 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-02-13 11:08:39 - [MESSAGE][INFO] - Appium server started on port 60,715
+
+2024-02-13 11:08:53 - [MESSAGE][PASSED] - Started app at: 'D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+2024-02-13 11:08:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageView"), 10): Tapped on element 'Object Repository/android.widget.ImageView'
+
+2024-02-13 11:08:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView'
+
+2024-02-13 11:08:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - ADD TO CART"), 10): Tapped on element 'Object Repository/android.widget.Button - ADD TO CART'
+
+2024-02-13 11:09:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - ADD TO CART'
+
+2024-02-13 11:09:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.EditText"), "1", 10): Text '1' has been set to element 'Object Repository/android.widget.EditText'
+
+2024-02-13 11:09:02 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/android.widget.EditText'
+
+2024-02-13 11:09:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - ADD"), 10): Tapped on element 'Object Repository/android.widget.Button - ADD'
+
+2024-02-13 11:09:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - ADD'
+
+2024-02-13 11:09:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView"), 10): Tapped on element 'Object Repository/android.widget.TextView'
+
+2024-02-13 11:09:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView'
+
+2024-02-13 11:09:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - CHECKOUT"), 10): Tapped on element 'Object Repository/android.widget.Button - CHECKOUT'
+
+2024-02-13 11:09:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - CHECKOUT'
+
+2024-02-13 11:09:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.EditText - Your Address"), "Address", 10): Text 'Address' has been set to element 'Object Repository/android.widget.EditText - Your Address'
+
+2024-02-13 11:09:09 - [MESSAGE][PASSED] - Text 'Address' has been set to element 'Object Repository/android.widget.EditText - Your Address'
+
+2024-02-13 11:09:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - PROCESS CHECKOUT"), 10): Tapped on element 'Object Repository/android.widget.Button - PROCESS CHECKOUT'
+
+2024-02-13 11:09:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - PROCESS CHECKOUT'
+
+2024-02-13 11:09:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - YES"), 10): Tapped on element 'Object Repository/android.widget.Button - YES'
+
+2024-02-13 11:09:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - YES'
+
+2024-02-13 11:09:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - OK"), 10): Tapped on element 'Object Repository/android.widget.Button - OK'
+
+2024-02-13 11:09:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - OK'
+
+2024-02-13 11:09:17 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-02-13 11:09:20 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-13 11:07:45 - [TEST_SUITE][PASSED] - TS - Checkout: Test Cases/Checkout/TC - Search and Checkout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
