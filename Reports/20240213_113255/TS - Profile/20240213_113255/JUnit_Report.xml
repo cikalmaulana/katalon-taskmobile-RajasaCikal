@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Profile" time="76.798" tests="2" failures="0" errors="0">
+   <testsuite name="TS - Profile" tests="2" failures="0" errors="0" time="76.798" skipped="0" timestamp="2024-02-13 11:32:59" hostname="CIkal - Cikal" id="Test Suites/TS - Profile">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\CIkal\\git\\katalon-taskmobile-RajasaCikal\\Reports\\20240213_113255\\TS - Profile\\20240213_113255"/>
+         <property name="logFiles" value="C:\\Users\\CIkal\\git\\katalon-taskmobile-RajasaCikal\\Reports\\20240213_113255\\TS - Profile\\20240213_113255\\appium.log, C:\\Users\\CIkal\\git\\katalon-taskmobile-RajasaCikal\\Reports\\20240213_113255\\TS - Profile\\20240213_113255\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="CIkal - Cikal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="172.16.213.167"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Profile/TC - Check Order History is Empty" time="34.783" classname="Test Cases/Profile/TC - Check Order History is Empty" status="PASSED">
+         <system-out><![CDATA[2024-02-13 11:32:59 - [TEST_CASE][PASSED] - Test Cases/Profile/TC - Check Order History is Empty: Test Cases/Profile/TC - Check Order History is Empty
+
+2024-02-13 11:32:59 - [TEST_STEP][PASSED] - startApplication("D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+2024-02-13 11:33:00 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-02-13 11:33:01 - [MESSAGE][INFO] - Appium server started on port 64,773
+
+2024-02-13 11:33:19 - [MESSAGE][PASSED] - Started app at: 'D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+2024-02-13 11:33:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile Objects/Check Order History/android.widget.ImageView"), 10): Tapped on element 'Object Repository/Profile Objects/Check Order History/android.widget.ImageView'
+
+2024-02-13 11:33:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile Objects/Check Order History/android.widget.ImageView'
+
+2024-02-13 11:33:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile Objects/Check Order History/android.widget.FrameLayout"), 10): Tapped on element 'Object Repository/Profile Objects/Check Order History/android.widget.FrameLayout'
+
+2024-02-13 11:33:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile Objects/Check Order History/android.widget.FrameLayout'
+
+2024-02-13 11:33:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Profile Objects/Check Order History/android.widget.TextView - Whoops, you havent ordered yet"), 10): Element 'Object Repository/Profile Objects/Check Order History/android.widget.TextView - Whoops, you havent ordered yet' is visible
+
+2024-02-13 11:33:32 - [MESSAGE][PASSED] - Element 'Object Repository/Profile Objects/Check Order History/android.widget.TextView - Whoops, you havent ordered yet' is visible
+
+2024-02-13 11:33:32 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-02-13 11:33:34 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile/TC - Edit Profile" time="41.823" classname="Test Cases/Profile/TC - Edit Profile" status="PASSED">
+         <system-out><![CDATA[2024-02-13 11:33:34 - [TEST_CASE][PASSED] - Test Cases/Profile/TC - Edit Profile: Test Cases/Profile/TC - Edit Profile
+
+2024-02-13 11:33:34 - [TEST_STEP][PASSED] - startApplication("D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+2024-02-13 11:33:34 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-02-13 11:33:36 - [MESSAGE][INFO] - Appium server started on port 65,004
+
+2024-02-13 11:33:50 - [MESSAGE][PASSED] - Started app at: 'D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+2024-02-13 11:33:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile Objects/Edit Profile/android.widget.ImageView"), 10): Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.ImageView'
+
+2024-02-13 11:34:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.ImageView'
+
+2024-02-13 11:34:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile Objects/Edit Profile/android.widget.TextView - EDIT"), 10): Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.TextView - EDIT'
+
+2024-02-13 11:34:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.TextView - EDIT'
+
+2024-02-13 11:34:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout"), 10): Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout'
+
+2024-02-13 11:34:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout'
+
+2024-02-13 11:34:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Profile Objects/Edit Profile/android.widget.EditText - Your Name"), "Kal", 10): Text 'Kal' has been set to element 'Object Repository/Profile Objects/Edit Profile/android.widget.EditText - Your Name'
+
+2024-02-13 11:34:06 - [MESSAGE][PASSED] - Text 'Kal' has been set to element 'Object Repository/Profile Objects/Edit Profile/android.widget.EditText - Your Name'
+
+2024-02-13 11:34:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK"), 10): Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK'
+
+2024-02-13 11:34:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK'
+
+2024-02-13 11:34:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (1)"), 10): Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (1)'
+
+2024-02-13 11:34:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (1)'
+
+2024-02-13 11:34:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Profile Objects/Edit Profile/android.widget.EditText - your.emailgmail.com"), "aquabotol@gmail.com", 10): Text 'aquabotol@gmail.com' has been set to element 'Object Repository/Profile Objects/Edit Profile/android.widget.EditText - your.emailgmail.com'
+
+2024-02-13 11:34:09 - [MESSAGE][PASSED] - Text 'aquabotol@gmail.com' has been set to element 'Object Repository/Profile Objects/Edit Profile/android.widget.EditText - your.emailgmail.com'
+
+2024-02-13 11:34:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK"), 10): Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK'
+
+2024-02-13 11:34:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK'
+
+2024-02-13 11:34:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (2)"), 10): Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (2)'
+
+2024-02-13 11:34:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (2)'
+
+2024-02-13 11:34:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Profile Objects/Edit Profile/android.widget.EditText - Your Address"), "Jl. Kebun Naga Dika", 10): Text 'Jl. Kebun Naga Dika' has been set to element 'Object Repository/Profile Objects/Edit Profile/android.widget.EditText - Your Address'
+
+2024-02-13 11:34:13 - [MESSAGE][PASSED] - Text 'Jl. Kebun Naga Dika' has been set to element 'Object Repository/Profile Objects/Edit Profile/android.widget.EditText - Your Address'
+
+2024-02-13 11:34:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK"), 10): Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK'
+
+2024-02-13 11:34:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK'
+
+2024-02-13 11:34:14 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-02-13 11:34:16 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-13 11:32:59 - [TEST_SUITE][PASSED] - TS - Profile: Test Cases/Profile/TC - Edit Profile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Checkout,,,,2024-02-13 11:24:47,2024-02-13 11:26:33,1m - 45.795s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC - Checkout from Category,,,,2024-02-13 11:24:47,2024-02-13 11:25:44,57.382s,PASSED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,2024-02-13 11:24:47,2024-02-13 11:25:06,18.336s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (1)""), 10)",,,,2024-02-13 11:25:06,2024-02-13 11:25:17,11.277s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.RelativeLayout""), 10)",,,,2024-02-13 11:25:17,2024-02-13 11:25:19,2.360s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (2)""), 10)",,,,2024-02-13 11:25:19,2024-02-13 11:25:21,1.453s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - ADD TO CART (1)""), 10)",,,,2024-02-13 11:25:21,2024-02-13 11:25:24,3.434s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText (1)""), ""1"", 10)",,,,2024-02-13 11:25:24,2024-02-13 11:25:26,1.911s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - ADD (1)""), 10)",,,,2024-02-13 11:25:26,2024-02-13 11:25:27,0.667s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView (1)""), 10)",,,,2024-02-13 11:25:27,2024-02-13 11:25:28,0.996s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - CHECKOUT (1)""), 10)",,,,2024-02-13 11:25:28,2024-02-13 11:25:29,1.733s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText - Your Address (1)""), ""Address"", 10)",,,,2024-02-13 11:25:29,2024-02-13 11:25:32,3.022s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - PROCESS CHECKOUT (1)""), 10)",,,,2024-02-13 11:25:32,2024-02-13 11:25:33,0.697s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - YES (1)""), 10)",,,,2024-02-13 11:25:33,2024-02-13 11:25:35,1.370s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - OK (1)""), 10)",,,,2024-02-13 11:25:35,2024-02-13 11:25:41,6.497s,PASSED
+closeApplication(),,,,2024-02-13 11:25:41,2024-02-13 11:25:44,3.384s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC - Search and Checkout,,,,2024-02-13 11:25:44,2024-02-13 11:26:33,48.211s,PASSED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,2024-02-13 11:25:45,2024-02-13 11:26:02,17.281s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView""), 10)",,,,2024-02-13 11:26:02,2024-02-13 11:26:06,4.529s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - ADD TO CART""), 10)",,,,2024-02-13 11:26:06,2024-02-13 11:26:09,3.028s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText""), ""1"", 10)",,,,2024-02-13 11:26:09,2024-02-13 11:26:11,1.925s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - ADD""), 10)",,,,2024-02-13 11:26:11,2024-02-13 11:26:12,0.739s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView""), 10)",,,,2024-02-13 11:26:12,2024-02-13 11:26:13,1.181s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - CHECKOUT""), 10)",,,,2024-02-13 11:26:13,2024-02-13 11:26:15,1.681s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText - Your Address""), ""Address"", 10)",,,,2024-02-13 11:26:15,2024-02-13 11:26:18,3.472s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - PROCESS CHECKOUT""), 10)",,,,2024-02-13 11:26:18,2024-02-13 11:26:19,0.661s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - YES""), 10)",,,,2024-02-13 11:26:19,2024-02-13 11:26:21,1.574s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - OK""), 10)",,,,2024-02-13 11:26:21,2024-02-13 11:26:29,8.837s,PASSED
+closeApplication(),,,,2024-02-13 11:26:29,2024-02-13 11:26:33,3.152s,PASSED

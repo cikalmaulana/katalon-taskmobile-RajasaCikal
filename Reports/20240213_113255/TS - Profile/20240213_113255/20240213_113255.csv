@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Profile,,,,2024-02-13 11:32:59,2024-02-13 11:34:16,1m - 16.798s,PASSED
+,,,,,,,
+Test Cases/Profile/TC - Check Order History is Empty,,,,2024-02-13 11:32:59,2024-02-13 11:33:34,34.783s,PASSED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,2024-02-13 11:32:59,2024-02-13 11:33:19,19.516s,PASSED
+"tap(findTestObject(""Object Repository/Profile Objects/Check Order History/android.widget.ImageView""), 10)",,,,2024-02-13 11:33:19,2024-02-13 11:33:29,10.347s,PASSED
+"tap(findTestObject(""Object Repository/Profile Objects/Check Order History/android.widget.FrameLayout""), 10)",,,,2024-02-13 11:33:29,2024-02-13 11:33:31,1.205s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Profile Objects/Check Order History/android.widget.TextView - Whoops, you havent ordered yet""), 10)",,,,2024-02-13 11:33:31,2024-02-13 11:33:32,1.524s,PASSED
+closeApplication(),,,,2024-02-13 11:33:32,2024-02-13 11:33:34,1.941s,PASSED
+,,,,,,,
+Test Cases/Profile/TC - Edit Profile,,,,2024-02-13 11:33:34,2024-02-13 11:34:16,41.823s,PASSED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,2024-02-13 11:33:34,2024-02-13 11:33:50,16.279s,PASSED
+"tap(findTestObject(""Object Repository/Profile Objects/Edit Profile/android.widget.ImageView""), 10)",,,,2024-02-13 11:33:50,2024-02-13 11:34:01,10.212s,PASSED
+"tap(findTestObject(""Object Repository/Profile Objects/Edit Profile/android.widget.TextView - EDIT""), 10)",,,,2024-02-13 11:34:01,2024-02-13 11:34:02,1.170s,PASSED
+"tap(findTestObject(""Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout""), 10)",,,,2024-02-13 11:34:02,2024-02-13 11:34:05,2.761s,PASSED
+"setText(findTestObject(""Object Repository/Profile Objects/Edit Profile/android.widget.EditText - Your Name""), ""Kal"", 10)",,,,2024-02-13 11:34:05,2024-02-13 11:34:06,1.193s,PASSED
+"tap(findTestObject(""Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK""), 10)",,,,2024-02-13 11:34:06,2024-02-13 11:34:06,0.614s,PASSED
+"tap(findTestObject(""Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (1)""), 10)",,,,2024-02-13 11:34:06,2024-02-13 11:34:08,1.856s,PASSED
+"setText(findTestObject(""Object Repository/Profile Objects/Edit Profile/android.widget.EditText - your.emailgmail.com""), ""aquabotol@gmail.com"", 10)",,,,2024-02-13 11:34:08,2024-02-13 11:34:09,1.010s,PASSED
+"tap(findTestObject(""Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK""), 10)",,,,2024-02-13 11:34:09,2024-02-13 11:34:10,0.643s,PASSED
+"tap(findTestObject(""Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (2)""), 10)",,,,2024-02-13 11:34:10,2024-02-13 11:34:12,1.913s,PASSED
+"setText(findTestObject(""Object Repository/Profile Objects/Edit Profile/android.widget.EditText - Your Address""), ""Jl. Kebun Naga Dika"", 10)",,,,2024-02-13 11:34:12,2024-02-13 11:34:13,1.060s,PASSED
+"tap(findTestObject(""Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK""), 10)",,,,2024-02-13 11:34:13,2024-02-13 11:34:14,0.602s,PASSED
+closeApplication(),,,,2024-02-13 11:34:14,2024-02-13 11:34:16,2.326s,PASSED
