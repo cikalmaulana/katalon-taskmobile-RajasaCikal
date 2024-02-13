@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Check Order History is Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acd6add6-2968-470c-ae56-a0223d999c9b</testCaseGuid>
+</TestCaseEntity>
