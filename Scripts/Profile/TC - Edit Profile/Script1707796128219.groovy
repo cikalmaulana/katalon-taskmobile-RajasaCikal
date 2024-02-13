@@ -19,30 +19,30 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\BFLP\\Bootcamp\\Materi\\Solodroid_E-CommerceApp Demo_3.2.0.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.ImageView'), 10)
 
-Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.TextView - EDIT'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.TextView - EDIT'), 10)
 
-Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout'), 10)
 
 Mobile.setText(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.EditText - Your Name'), 'Kal', 
-    0)
+    10)
 
-Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.Button - OK'), 10)
 
-Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (1)'), 10)
 
 Mobile.setText(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.EditText - your.emailgmail.com'), 
-    'aquabotol@gmail.com', 0)
+    'aquabotol@gmail.com', 10)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject(''), 10)
 
-Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.RelativeLayout (2)'), 10)
 
 Mobile.setText(findTestObject('Object Repository/Profile Objects/Edit Profile/android.widget.EditText - Your Address'), 
-    'Jl. Kebun Naga Dika', 0)
+    'Jl. Kebun Naga Dika', 10)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject(''), 10)
 
 Mobile.closeApplication()
 

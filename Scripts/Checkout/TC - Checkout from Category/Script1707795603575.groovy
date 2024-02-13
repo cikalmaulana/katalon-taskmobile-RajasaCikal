@@ -19,29 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\BFLP\\Bootcamp\\Materi\\Solodroid_E-CommerceApp Demo_3.2.0.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (1)'), 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.RelativeLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.RelativeLayout'), 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (2)'), 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button - ADD TO CART (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - ADD TO CART (1)'), 10)
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText (1)'), '1', 0)
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (1)'), '1', 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button - ADD (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - ADD (1)'), 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView (1)'), 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button - CHECKOUT (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - CHECKOUT (1)'), 10)
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Your Address (1)'), 'Address', 0)
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Your Address (1)'), 'Address', 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button - PROCESS CHECKOUT (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - PROCESS CHECKOUT (1)'), 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button - YES (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - YES (1)'), 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button - OK (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - OK (1)'), 10)
 
 Mobile.closeApplication()
 

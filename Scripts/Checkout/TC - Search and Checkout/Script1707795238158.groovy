@@ -19,25 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\BFLP\\Bootcamp\\Materi\\Solodroid_E-CommerceApp Demo_3.2.0.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView'), 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button - ADD TO CART'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - ADD TO CART'), 10)
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText'), '1', 0)
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText'), '1', 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button - ADD'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - ADD'), 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView'), 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button - CHECKOUT'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - CHECKOUT'), 10)
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Your Address'), 'Address', 0)
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Your Address'), 'Address', 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button - PROCESS CHECKOUT'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - PROCESS CHECKOUT'), 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button - YES'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - YES'), 10)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - OK'), 10)
 
 Mobile.closeApplication()
 
